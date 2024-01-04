@@ -10,20 +10,51 @@
     text-decoration: none;
     font-family: 'Heebo', sans-serif;
     color: #c1bdb3;
-    background-color: #3D3B3C;
+    background-color: #2A2829;
 }
 
 html {
     font-size: 62.5%;
-    margin: 0px;
+    margin: 0;
+}
+body {
+    padding-top: 0px;
+    margin-top: -20px;
+    padding-bottom: 200px;
+    background-color: #2A2829;
 }
 /* End of Common Styles */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+.workexp-header {
+    font-size: 24px;
+    margin-top: 30px;
+    color: #A89FC1;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
 .navbar .navigation {
     background-color: #323031;
     width: 100%;
 }
 .navbar .navbar-brand, .navbar .nav-link {
     color: #c1bdb3;
+    font-size: 18px;
+}
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 6px;
+    margin-right: 6px;
 }
 
 canvas {
@@ -35,10 +66,10 @@ canvas {
     background-color: #323031;
 }
 .accordion-item .accordion-header .accordion-button {
-    font-size: 20px;
+    font-size: 24px;
 }
 .accordion-item .accordion-body {
-    font-size: 14px;
+    font-size: 17px;
     background-color: #323031;
 }
 
@@ -55,18 +86,43 @@ canvas {
 
 
 .namecard {
-    /*padding-top: 40px;*/
+    font-size: 72px;
+    padding-top: 232px;
+    margin-bottom: 400px;
     font-weight: bold;
 }
-/*
-.welcome-statement {
-    padding: 40px;
+.display-1 {
+    font-weight: bold;
 }
-*/
+
+.welcome-statement {
+    margin-top: 40px;
+    font-size: 48px;
+}
+.welcome-intro {
+    margin-top: 0px;
+
+}
+
 /* section styling */
 .portfolio {
     position: relative;
     background-color: rgba(0,0,0,0);
     z-index: 2;
     text-align: center;
+}
+.workexp-top {
+    margin-bottom: 0px;
+}
+.workexp-intro {
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+.workexp-body {
+    font-size: 18px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+.aboutme-body {
+    font-size: 18px;
 }

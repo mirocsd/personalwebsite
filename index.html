@@ -40,12 +40,13 @@
     <section id="home">
         <div class="container mt-4 pt-4">
           <h1 class="text-center namecard display-1"><strong>MIRO STRASZYNSKI</strong></h1>
-          <h1 class="text-center display-3 welcome-statement"> WELCOME TO MY PERSONAL WEBSITE</h1>
+          <h1 class="text-center display-3 welcome-statement">WELCOME&nbsp;&nbsp;TO&nbsp;&nbsp;MY&nbsp;&nbsp;PERSONAL&nbsp;&nbsp;WEBSITE</h1>
+          <h2 class="text-center welcome-intro">Thanks for checking out my site, I hope you find this to be a good place to learn a little more about me.</h2>
         </div>
     </section>
-    <section id="portfolio">
+    <section id="projects">
         <div class="container mt-4 pt-4">
-            <h1 class="text-center">MY PROJECTS</h1>
+            <h1 class="text-left display-1">MY PROJECTS</h1>
             <div class="row mt-4">
                 <div class="accordion" id="projects">
                   <div class="accordion-item">
@@ -54,9 +55,9 @@
                         My Personal Website
                       </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projects">
                       <div class="accordion-body">
-                        The website you are viewing now, my own personal website. It uses the standard HTML and CSS, and uses Bootstrap 5's JS. <a href="https://github.com/mirocsd/personalwebsite" target="_blank">GitHub</a>
+                        The website you are viewing now, my personal website. It uses the standard HTML and CSS, and uses Bootstrap 5's JS. I started work on it during fall 2023, but realized I needed to learn more than I had expected, and returned back to it at the end of the fall semester, with a much better understanding of HTML, CSS, and using Bootstrap. <a href="https://github.com/mirocsd/personalwebsite" target="_blank">GitHub</a>
                       </div>
                     </div>
                   </div>
@@ -66,7 +67,7 @@
                         Music Organization Tool
                       </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#projects">
                       <div class="accordion-body">
                         This is a tool I made, using Python, to solve some of the troubles and inconveniences of keeping and organizing a personal music library. Music folders downloaded from others usually are formatted in a way that is inconsistent to how I format my own library, and this tool allows for looking up artist/album information using the MusicBrainz REST API, then adding ID3 tags to .mp3 files, and formatting track and album naming. <a href="https://www.github.com/mirocsd/musicorgcli" target="_blank">GitHub</a>
                       </div>
@@ -78,9 +79,9 @@
                         Media Queue Application
                       </button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#projects">
                       <div class="accordion-body">
-                        This is a simple application, with a GUI made in QT5Designer, for keeping a list of albums, movies, and books that the user might want to listen to, watch, or read. Each list item is added and removed in a first-in-first-out format, making necessary for the user to be committed to completing whatever is added. <a href="https://github.com/mirocsd/queuer" target="_blank">GitHub</a>
+                        This is a simple application, with a GUI made in QT5Designer, for keeping a list of albums, movies, and books that the user might want to listen to, watch, or read. Each list item is added and removed in a first-in-first-out format, making it necessary for the user to be committed to completing whatever is added. <a href="https://github.com/mirocsd/queuer" target="_blank">GitHub</a>
                       </div>
                     </div>
                   </div>
@@ -90,9 +91,9 @@
                         Teensy 4.1 Digital FM Synthesizer
                       </button>
                     </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#projects">
                       <div class="accordion-body">
-                        This is a simple synthesizer which uses the Teensy 4.1 microcontroller to 
+                        I made this simple FM synthesizer which uses the Teensy 4.1 microcontroller to check for analog input from the on-board input pins, which is used to modify several parameters (amplitude, frequency, phase) affecting a few waves (which sequentially modulate eachother). PJRC's Teensy Audio Library made this pretty straightforward, but it was a good learning experience for me with the C language and programming MCUs. I also experimented a bit finding different options for audio output (because I initially didn't want to pay $30 or so for the Teensy Audio Shield), and was able to connect it to Ableton Live, where the synthesizer output could be recorded into a project.
                       </div>
                     </div>
                   </div>
@@ -102,21 +103,33 @@
 
     <section id="workexp">
       <div class="container mt-4 pt-4">
-          <h1 class="text-center">Work Experience</h1>
+          <h1 class="text-left workexp-top display-1">WORK EXPERIENCE</h1>
           <div class="row mt-4">
-              <div>
-                  
-              </div>
+            <div class="workexp-full">
+              <p class="workexp-intro">Although I don’t have any experience directly related to computer or software engineering just yet, I have 2.5+ years of experience working on teams, learning the importance of being able to work with others and how to be an efficient worker.</p>
+              <h2 class="workexp-header">Walmart Dairy Cooler & Freezer Associate at Meadowlark Walmart, Edmonton, AB</h2>
+              <p class="workexp-body">I started this job in May 2021, at 16, and quickly formed good working relationships with my team members. In the Dairy and Freezer departments, I mainly handled the restocking and taking inventory of dairy and freezer stock, and reorganizing the backrooms. Though stressful at first, over time I came to enjoy the environment that called for always moving and always having something to do. I quickly learnt from other associates that doing the job quickly and efficiently made everything easier down the road, and that the simple routine we were given to follow was not always enough to handle the unpredictable nature of dairy and freezer stock deliveries and unreliable associates. I quit this job in May of 2023, to work in B.C. over the summer, but was rehired in the fall.</p>
+              <h2 class="workexp-header">Park Groundskeeper at Shuswap-Adams Parks Ltd., Shuswap Lake Provincial Park, Scotch Creek, BC</h2>
+              <p class="workexp-body">I was enticed by the idea of spending my summer outdoors, so I took this position, living with my grandparents in Scotch Creek. On the grounds-keeping team, I was responsible for cleaning campsites in the campground after customers had left, picking garbage off of the beach, emptying garbage and recycling bins, removing fallen trees and debris, weed-whipping and lawn mowing ditches and and open lawn space, and driving to other local Provincial Parks to do the same. Our team was relatively small (about 8 people), and that, coupled with the synchronized meals and shift times made it very easy to form strong relationships with my team. As a result, by the peak of the season, we were able to rely on each other to complete our tasks, and had downtime even on very busy days.</p>
+              <h2 class="workexp-header">Walmart Online Customer Fulfillment Associate at Meadowlark Walmart, Edmonton, AB</h2>
+              <p class="workexp-body">Following my return to school for the Fall 2023 semester, I was rehired at Walmart for this position in the online department, responsible for picking online orders from the salesfloor, and staging items to be delivered to (or picked up by) customers. Because of my history at the store and reliability, I am frequently asked to help out in the dairy, freezer, or grocery departments during downtime.</p>
+            </div>
           </div>
     </section>
 
     <section id="aboutme">
     <div class="container mt-4 pt-4">
-        <h1 class="text-center">About Me</h1>
+        <h1 class="text-left display-1">ABOUT ME</h1>
         <div class="row mt-4">
-            <div>
-                
-            </div>
+          <section class="aboutme-body">
+            <p>My name is Miro, I am a 19 year old, second year computer engineering student at the University of Alberta. </p>
+            <p>My interest in technology began in my childhood. I vividly remember dismantling a broken vacuum cleaner and being very disappointed when my father told me it wouldn't be possible to create an e-bike by connecting the electric motor to the rear wheel of my bike.</p>
+            <p>In my early teens, still without a personal computer or smartphone, I turned to a Raspberry Pi—a Christmas gift that became my gateway to technology. I recall frustratingly troubleshooting things that I wouldn’t even think twice about now, like installing a Linux distro from a USB drive, or figuring out how to configure my monitor. This of course, meant that finally getting RetroPie working with my monitor and controller was incredibly rewarding.</p>
+            <p>Around that same age, I developed an interest in pen-testing, for the most part because I aspired to become a ‘hacker’. When I was given another Raspberry Pi, I installed Kali Linux and began spending much of my free time watching YouTube tutorials, enthusiastically (but not effectively) reaching for my aspiration. Eventually my young and naive self was hit with too many failures, and I took my interests elsewhere. Later on, I used another Raspberry Pi to make a headless piano-box, using Fluidsynth to play piano soundfonts with input from a connected MIDI controller.</p>
+            <p>In the present, I enjoy using technology to explore my interests, which has expanded to many subcategories within the worlds of music, literature, cinema, and  fashion. These interests rotate and expand within these subcategories. Music, in particular, has played a significant role in my life, having taken piano lessons for 11 years. Consequently, I listen to a lot of music, and many of my projects have something to do with it. </p>
+            <p>My fascination with both technology and philosophy has led me to become interested in modern philosophical movements such as accelerationism, but I also enjoy finding connections between non-contemporary philosophers and the contemporary tech world. I’m additionally intrigued by the influence of technology on the political sphere.</p>
+            <p>When I’m not at work or working on projects and schoolwork, you might find me listening to music, reading, watching movies, configuring my Linux desktop, or browsing auction sites and online marketplaces for cool clothes.</p>
+          </section>
         </div>
     </section>
     <!-- bootstrap.js lib-->
