@@ -41,6 +41,7 @@ h1 {
     left: 0;
     width: 100%;
     z-index: 1000;
+    display: block;
 }
 .navbar .navigation {
     background-color: #323031;
@@ -86,9 +87,10 @@ canvas {
 
 
 .namecard {
-    font-size: 72px;
+    font-size: 7.5rem;
     padding-top: 232px;
     margin-bottom: 400px;
+    width: 100%;
     font-weight: bold;
 }
 .display-1 {
@@ -97,10 +99,11 @@ canvas {
 
 .welcome-statement {
     margin-top: 40px;
-    font-size: 48px;
+    font-size: 5rem;
 }
 .welcome-intro {
     margin-top: 0px;
+    font-size: 1.8rem;
 
 }
 
