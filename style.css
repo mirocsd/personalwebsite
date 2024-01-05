@@ -20,7 +20,7 @@ html {
 body {
     padding-top: 0px;
     margin-top: -20px;
-    padding-bottom: 200px;
+    padding-bottom: 0;
     background-color: #2A2829;
 }
 /* End of Common Styles */
@@ -49,7 +49,7 @@ body {
     margin-right: 6px;
 }
 
-/* accordion styling */
+/* projects accordion styling */
 .accordion-item .accordion-header {
     color: #5F5B6B;
     background-color: #323031;
@@ -77,7 +77,7 @@ body {
     font-size: 400%;
 }
 
-/* home screen styling */
+/* home screen / name page styling */
 .namecard {
     font-size: 6lvw;
     padding-top: 25vh;
@@ -121,6 +121,20 @@ body {
     font-size: 18px;
 }
 
+/* contacts styling */
+.contacts {
+    font-size: 20px;
+}
+
+/* footer styling (the copyright thing) */
+footer {
+    background-color: #2A2829;
+    color: #646163;
+    text-align: center;
+    font-size: 1vh;
+    margin-top: 150px;
+    margin-bottom: 5px;
+}
 /* h1 styling */
 h1 {
     font-size: 36px;
@@ -174,5 +188,8 @@ h1 {
     .accordion-item .accordion-body {
         font-size: 2.5vw;
         background-color: #323031;
+    }
+    .contacts {
+        font-size: 1.5vh;
     }
 }
