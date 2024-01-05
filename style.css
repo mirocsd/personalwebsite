@@ -24,17 +24,8 @@ body {
     background-color: #2A2829;
 }
 /* End of Common Styles */
-h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    margin-top: 70px;
-}
 
-.workexp-header {
-    font-size: 24px;
-    margin-top: 30px;
-    color: #A89FC1;
-}
+/* navbar styling */
 .navbar {
     position: fixed;
     top: 0;
@@ -58,67 +49,65 @@ h1 {
     margin-right: 6px;
 }
 
-canvas {
-    display: block;
-} 
-
+/* accordion styling */
 .accordion-item .accordion-header {
     color: #5F5B6B;
     background-color: #323031;
 }
 .accordion-item .accordion-header .accordion-button {
-    font-size: 24px;
+    font-size: 2vw;
 }
 .accordion-item .accordion-body {
     font-size: 17px;
     background-color: #323031;
 }
-
 .accordion-item .accordion-header .accordion-button.collapsed {
     background-color: #3d3b3c;
     color: #c1bdb3;
 }
-
 .accordion-item .accordion-header .accordion-button:not(.collapsed) {
     background-color: #5f5b6b; 
     color: #c1bdb3;
     border-color: #c1bdb3;
 }
 
+/* display-1 header styling */
+.display-1 {
+    font-weight: bold;
+    font-size: 400%;
+}
 
+/* home screen styling */
 .namecard {
-    font-size: 7.5rem;
-    padding-top: 232px;
-    margin-bottom: 400px;
+    font-size: 6lvw;
+    padding-top: 25vh;
+    margin-bottom: 35vh;
     width: 100%;
     font-weight: bold;
 }
-.display-1 {
-    font-weight: bold;
-}
-
 .welcome-statement {
     margin-top: 40px;
-    font-size: 5rem;
+    font-size: 3.5vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 .welcome-intro {
     margin-top: 0px;
-    font-size: 1.8rem;
+    font-size: 1.5vw;
 
 }
 
-/* section styling */
-.portfolio {
-    position: relative;
-    background-color: rgba(0,0,0,0);
-    z-index: 2;
-    text-align: center;
+/* work experience section styling */
+.workexp-header {
+    font-size: 24px;
+    margin-top: 30px;
+    color: #A89FC1;
 }
 .workexp-top {
     margin-bottom: 0px;
 }
 .workexp-intro {
-    font-size: 17px;
+    font-size: 18px;
     margin-bottom: 0px;
 }
 .workexp-body {
@@ -126,6 +115,64 @@ canvas {
     margin-left: 30px;
     margin-bottom: 0px;
 }
+
+/* about me body text styling */
 .aboutme-body {
     font-size: 18px;
+}
+
+/* h1 styling */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+/* special styling for mobile devices */
+@media (max-width: 600px) {
+    .display-1 {
+        font-weight: bold;
+        font-size: 6vw;
+    }
+    body {
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+    .workexp-header {
+        font-size: 1.6vh;
+    }
+    .workexp-intro {
+        font-size: 1.2vh;
+    }
+    .workexp-body {
+        font-size: 1.2vh;
+        margin-left: 1vh;
+    }
+    .aboutme-body {
+        font-size: 1.2vh;
+    }
+    .namecard {
+        font-size: 9vw;
+        padding-top: 30vh;
+        margin-bottom: 38vh;
+        width: 100%;
+        font-weight: bold;
+    }
+    .welcome-statement {
+        margin-top: 40px;
+        font-size: 4vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .welcome-intro {
+        margin-top: 0px;
+        font-size: 1.7vw;
+    }
+    .accordion-item .accordion-header .accordion-button {
+        font-size: 3vw;
+    }
+    .accordion-item .accordion-body {
+        font-size: 2.5vw;
+        background-color: #323031;
+    }
 }
